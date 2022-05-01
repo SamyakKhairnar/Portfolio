@@ -3,8 +3,9 @@ body{
     background-color: lightslategray;
 }
 #body-header{
-    height: 65vh;
+    height: 70vh;
     background-image: url(back.jpg);
+    margin-top: -30px;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -15,7 +16,7 @@ body{
 }
 .horizontal-list li{
     display: inline-block;
-    margin: 16px 30px 30px 0px;
+    margin: 18px 30px 30px 0px;
     font-size: 24px;
 }
 .horizontal-list li a{
@@ -25,34 +26,10 @@ body{
 }
 .nav-menu li a:hover{
     color: lightgray;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid lightgray;
     text-shadow: rgba(32,230,214,1) 0px 0px 38px;
 }
-.text-center{
-    text-align: center;
-}
-#name-social-container{
-    margin-top: 80vh;
-}
-
-#my-name{
-    font-size: 4rem;
-    letter-spacing: 0.1rem;
-    color: white;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    text-shadow: 2px 2px 12px #000000;
-}
-.social-icons li a i{
-    padding: 10px;
-    font-size: 1.2rem;
-    border-radius: 50%;
-}
-.social-icons li a i:hover{
-    box-shadow: 0px 0px 6px 4px rgba(32,230,214,1);
-    /* text-shadow: rgba(32,230,214,1) 0px 0px 38px; */
-}
-#about{
+#profile-pic{
     height: auto;
     width: 100%;
     position: relative;
@@ -61,7 +38,8 @@ body{
     height: 19rem;
     width: 19rem;
     margin: auto;
-    margin-top: -17vh;
+    margin-top: 42vh;
+    margin-bottom: auto;
 }
 #my-image img{
     height: 100%;
@@ -72,4 +50,59 @@ body{
     border-color: white;
     box-shadow: 0px 0px 6px 4px rgba(32,230,214,1);
     /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19); */
+}
+.text-center{
+    text-align: center;
+}
+#name-social-container{
+    margin-top: auto;
+}
+#my-name{
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 12px #000000;
+}
+.social-icons li a i{
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+}
+.social-icons li a i:hover{
+    transition: box-shadow 0.3s;
+    box-shadow: 0px 0px 6px 4px rgba(32,230,214,1);
+    /* text-shadow: rgba(32,230,214,1) 0px 0px 38px; */
+}
+#about-div{
+    margin: auto;
+    margin-top: 45vh;
+    height: 20rem;
+    width: 95rem;
+    border-radius: 25px;
+    padding: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    background-color: white;
+}
+#about-div h2{
+    margin-top: -1vh;
+    font-weight: bold;
+}
+#skills-div{
+    margin: auto;
+    margin-top: 2vh;
+    height: 20rem;
+    width: 95rem;
+    border-radius: 25px;
+    padding: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    background-color: white;
+}
+#skills-div h2{
+    margin-top: -1vh;
+    font-weight: bold;
 }
